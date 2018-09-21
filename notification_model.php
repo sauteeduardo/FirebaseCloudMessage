@@ -1,13 +1,13 @@
 <?php
 
 
-
+//extende do codeigniter.
 class Notificacao_Model extends CI_Model {
 
     private $api_key = "";
 
     public function __construct(){
-
+    //chama a lib
         $this->load->library("fcm");
 
     }
